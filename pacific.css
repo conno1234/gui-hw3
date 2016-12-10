@@ -1,0 +1,128 @@
+
+/*
+
+Name: Connor McGrory
+Email: Connor_McGrory@student.uml.edu
+Date: December 9, 2016
+For: GUI Programming I, UMass Lowell
+RESUBMISSION: Assignement No. 3
+
+In this assignment, I styled a webpage to match a pre-existing one to the best of my ability.
+
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	background-image: url("ptrbackground.jpg");
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+span.resort {
+	font-weight: bold;
+	color: #5C94AF;
+}
+
+/* The wrapper's width is controlled here. */
+#wrapper {
+	background-color: #8CC4DF;
+	width: 80%;
+	min-width: 600px;
+	margin: 0 auto;
+}
+
+/* This 'nav' holds all of the links on this webpage. */
+nav {
+	float: left;
+	background-color: #8CC4DF;
+	width: 160px;
+	padding: 20px 5px 5px 20px;
+}
+
+/* The costal image is aligned here. */
+img {
+	float: left;
+	padding-right: 30px;
+}
+
+#content {
+	padding: 1px 20px 20px 20px;
+  background-color: #FFFFFF;
+  margin-left: 190px;
+  padding-left: 30px;
+}
+
+/* This is the styling for the footer. */
+footer {
+	margin-left: 190px;
+	background-color: #FFFFFF;
+	font-style: italic;
+	padding: 20px;
+}
+
+/* Here I set a custom bullet point image for my 'ul' objects. */
+ul {
+	list-style-position: inside;
+	list-style-image: url('marker.gif');
+}
+
+/* These 'ul' items are in the nav bar and will be styled differently. */
+nav ul {
+	font-size: 1.2em;
+	list-style-type:none;
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+
+/* A visited link will receive this color. */
+nav a:visited {
+	color: #344873;
+}
+
+/* Adds a hover color to the nav bar links. */
+nav a:hover {
+	color: #FFFFFF;
+}
+
+/* Removes the default styling for hypertext links. */
+a {
+	text-decoration: none;
+}
+
+/* Underline the last item in my footer (the email address). */
+footer :last-child {
+	text-decoration: underline;
+}
+
+/* Various formatting is applied to many different headers. */
+h1 {
+	background-image: url("sunset.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-color: #000032;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+h2 {
+	color: #3399CC;
+}
+
+h1, h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+}
